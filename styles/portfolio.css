@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -40,12 +41,55 @@ nav a{
 /* Header Related style */
 .header{
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .bannar{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.bannar-content{
+    max-width: 500px;
 }
 .profile-photo{
     width: 500px;
+}
+.bannar-greeting{
+    font-size: 45px;
+    color: #454545;
+    margin-bottom: 0;
+}
+.bannar-title{
+    font-size: 85px;
+    color: #454545;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.bannar-descripiton{
+    min-width: 500px;
+}
+
+/* Main Section Styles */
+
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.bannar-descripiton{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
