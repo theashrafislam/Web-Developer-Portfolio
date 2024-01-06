@@ -72,8 +72,17 @@ nav a{
 .bannar-descripiton{
     min-width: 500px;
 }
+.bannar-descripiton{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 
 /* Main Section Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
 .about{
@@ -88,8 +97,17 @@ nav a{
     font-size: 35px;
     font-weight: 700;
 }
-.bannar-descripiton{
-    color: #757575;
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
     text-align: center;
-    font-size: 18px;
+}
+.info-title{
+    font-weight: 400;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
 }
